@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Shukrani Nkulu Kayumba - Full-Stack Web Developer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["portfolio", "nodejs", "express", "ejs", "web-developer"],
+  "author": "Shukrani Nkulu Kayumba",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  }
+}

@@ -1,0 +1,172 @@
+<%- include('partials/header') %>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-title"><%= name %></h1>
+      <h2 class="hero-role"><%= role %></h2>
+      <p class="hero-tagline"><%= tagline %></p>
+      <div class="hero-cta">
+        <a href="/projects" class="btn btn-primary">View My Work</a>
+        <a href="/contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-window">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="filename">developer.js</span>
+        </div>
+        <div class="code-content">
+          <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">"<%= name %>"</span>,
+  <span class="property">role</span>: <span class="string">"<%= role %>"</span>,
+  <span class="property">skills</span>: [
+    <span class="string">"Node.js"</span>,
+    <span class="string">"Express.js"</span>,
+    <span class="string">"EJS"</span>,
+    <span class="string">"RESTful APIs"</span>,
+    <span class="string">"HTML/CSS/JS"</span>
+  ],
+  <span class="property">passion</span>: <span class="string">"Building clean, scalable web apps"</span>,
+  <span class="method">grow</span>: () => <span class="string">"Always learning"</span>
+};</code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-preview">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>I am a <strong>Full-Stack Web Developer</strong> with a strong focus on <strong>Node.js</strong>, <strong>Express.js</strong>, and <strong>EJS</strong>. I specialize in building structured and maintainable web applications using RESTful APIs and server-side rendering.</p>
+        <p>I develop responsive and user-friendly interfaces using HTML, CSS, and JavaScript, and design backend systems with clean routing, reusable middleware, and scalable architecture.</p>
+        <a href="/about" class="link-arrow">Learn more about me <span>&rarr;</span></a>
+      </div>
+      <div class="about-stats">
+        <div class="stat-item">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Projects Completed</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Commitment to Quality</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">Learning Mindset</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="skills-preview">
+  <div class="container">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3 class="skill-category-title">Backend</h3>
+        <ul class="skill-list">
+          <li class="skill-item"><span class="skill-icon">⚡</span> Node.js</li>
+          <li class="skill-item"><span class="skill-icon">🚀</span> Express.js</li>
+          <li class="skill-item"><span class="skill-icon">🔌</span> RESTful APIs</li>
+          <li class="skill-item"><span class="skill-icon">🛡️</span> Middleware</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3 class="skill-category-title">Frontend</h3>
+        <ul class="skill-list">
+          <li class="skill-item"><span class="skill-icon">📄</span> HTML5</li>
+          <li class="skill-item"><span class="skill-icon">🎨</span> CSS3</li>
+          <li class="skill-item"><span class="skill-icon">⚙️</span> JavaScript</li>
+          <li class="skill-item"><span class="skill-icon">📝</span> EJS</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3 class="skill-category-title">Tools & Workflow</h3>
+        <ul class="skill-list">
+          <li class="skill-item"><span class="skill-icon">📦</span> npm</li>
+          <li class="skill-item"><span class="skill-icon">🔀</span> Git & GitHub</li>
+          <li class="skill-item"><span class="skill-icon">🧪</span> Postman</li>
+          <li class="skill-item"><span class="skill-icon">🎯</span> Clean Code</li>
+        </ul>
+      </div>
+    </div>
+    <div class="skills-cta">
+      <a href="/skills" class="btn btn-outline">View All Skills</a>
+    </div>
+  </div>
+</section>
+
+<section class="projects-preview">
+  <div class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-folder">📁</span>
+          <div class="project-links">
+            <a href="https://github.com/mrshukraf-png" class="project-link" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+          </div>
+        </div>
+        <h3 class="project-title">E-Commerce API</h3>
+        <p class="project-description">A RESTful API built with Node.js and Express.js for managing products, users, and orders.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">Express</span>
+          <span class="tech-tag">REST API</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-folder">📁</span>
+          <div class="project-links">
+            <a href="https://github.com/mrshukraf-png" class="project-link" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+          </div>
+        </div>
+        <h3 class="project-title">Portfolio Website</h3>
+        <p class="project-description">A responsive portfolio website built with Express.js and EJS featuring server-side rendering.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Express</span>
+          <span class="tech-tag">EJS</span>
+          <span class="tech-tag">CSS3</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-folder">📁</span>
+          <div class="project-links">
+            <a href="https://github.com/mrshukraf-png" class="project-link" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+          </div>
+        </div>
+        <h3 class="project-title">Task Manager App</h3>
+        <p class="project-description">A full-stack task management application with CRUD operations and middleware authentication.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">Express</span>
+          <span class="tech-tag">Middleware</span>
+        </div>
+      </div>
+    </div>
+    <div class="projects-cta">
+      <a href="/projects" class="btn btn-outline">View All Projects</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact-cta">
+  <div class="container">
+    <h2 class="section-title">Let's Work Together</h2>
+    <p class="contact-text">I'm currently expanding my knowledge in databases and authentication, and I'm motivated to grow within a professional development environment while delivering reliable and efficient solutions.</p>
+    <a href="/contact" class="btn btn-primary btn-large">Get In Touch</a>
+  </div>
+</section>
+
+<%- include('partials/footer') %>
